@@ -15,12 +15,12 @@ public class lesson_8 {
         int evszam = scanner.nextInt();
         scanner.nextLine();
 
-        boolean nemszokoev = ((evszam % 4 !=0) && (evszam < 1582));
+        //boolean nemszokoev = ((evszam % 4 !=0) && (evszam < 1582));
         boolean szokoev = evszam % 4 ==0 && evszam > 1582;
 
-        if(szokoev){
+        if(szokoev && evszam % 100 != 0){
             System.out.println("A(z) " + evszam + " -es év szökőév!");
-        } else if  (evszam % 400 == 0 ) {
+        } else if  (evszam % 400 == 0 && evszam % 100 == 0) {
             System.out.println("A(z) " + evszam + " -es év szökőév!");
         } else {
             System.out.println("A(z)  " + evszam + "  -es év NEM szökőév!");
