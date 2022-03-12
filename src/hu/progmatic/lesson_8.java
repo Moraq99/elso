@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class lesson_8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         //.1 feladat szökőév
 
         //1582-ben vezették be (tehát azelőtti év biztosan nem szökőév)
@@ -12,8 +12,8 @@ public class lesson_8 {
         //de a 100-zal osztható évek közül csak azok szökőévek, amelyek 400-zal is oszthatóak
         //int evszam = 1582;
         System.out.println("Hello, adj egy évszámot, megmondom szökőév-e!");
-        int evszam = scanner.nextInt();
-        scanner.nextLine();
+        int evszam = sc.nextInt();
+        sc.nextLine();
 
         //boolean nemszokoev = ((evszam % 4 !=0) && (evszam < 1582));
         boolean szokoev = evszam % 4 ==0 && evszam > 1582;
