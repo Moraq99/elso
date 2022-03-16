@@ -51,7 +51,7 @@ public class lesson_8 {
                 System.out.println("Nem Prím szám a " + szam + "!");
             }*/
 
-        System.out.println("Kérem a számot!");
+        /*System.out.println("Kérem a számot!");
         int szam = sc.nextInt();
         sc.nextLine();
         int db = szam;
@@ -63,23 +63,50 @@ public class lesson_8 {
                 n++;
             }
         System.out.println("a szám osztóinak száma: " + n);
-        System.out.println();
+        System.out.println();*/
+
+       /* System.out.println("Kérem a színt!");
+        String light = sc.nextLine();
+
+        if (light.equalsIgnoreCase("zöld")) {
+            System.out.println("SZABAD");
+        } else if (light.equalsIgnoreCase("SÁRGA")) {
+            System.out.println("Lassíts!");
+        } else if (light.equalsIgnoreCase("piros")) {
+            System.out.println("MEGÁLLJ!");
+
+        } else {
+            System.out.println("NEM TUDOM!");
+        }*/
+        /*Elem csere
+★★
+Leírás
+Adott egy karaktereket tartalmazó tömb.
+Írj programkódot, amely felcseréli a tömb legelső és legutolsó elemét!
+Ügyelj arra, hogy a tömb akár üres is lehet! (Üres tömb elemeit nem tudod felcserélni.)
+Ellenőrző adatok
+char[] chars = new char[0];
+elvárt eredmény: {}
+char[] chars = {'a'};
+elvárt eredmény: {'a'}
+char[] chars = {'a', 'A'};
+elvárt eredmény: {'A', 'a'}
+char[] chars = {'a', 'A', 'b'};
+elvárt eredmény: {'b', 'A', 'a'}
+char[] chars = {'+', '-', '*', '/', '%'};
+elvárt eredmény: {'%', '-', '*', '/', '+'}*/
+
+/*char[] chars = {'a', 'b', 'c', 'A', 'B', 'C', '+', '!'};
+        int i;
+        //switch (chars);
+        chars[1] = chars[7];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(chars[1]);*/
 
 
     }
 }
+
+
+
