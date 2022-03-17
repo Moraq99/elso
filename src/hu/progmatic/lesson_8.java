@@ -104,7 +104,77 @@ elvárt eredmény: {'%', '-', '*', '/', '+'}*/
 
         System.out.println(chars[1]);*/
 
+/*Leírás
+Adott egy egész szám.
+Írj programkódot, amely összeadja a szám számjegyeit!
+Ellenőrző adatok
+int number = 1;
+számjegyek összege: 1
+int number = 2;
+számjegyek összege: 2
+int number = -1;
+számjegyek összege: 1
+int number = 12;
+számjegyek összege: 3
+int number = -5483229;
+számjegyek összege: 33*/
 
+    /*int szam, szamjegy, osszeg = 0;
+        System.out.println("Adj egy számot, összeadom a számjegyeit!");
+        szam = sc.nextInt();
+        sc.nextLine();
+
+        while(szam > 0) {
+            szamjegy = szam%10;
+            osszeg = osszeg + szamjegy;
+            szam = szam/10;
+
+        }
+        System.out.println("A számjegyek összege: " + osszeg);
+       */
+
+        /*Leírás
+        Adott egy szöveg, amely egy hónapot jelöl.
+         Írj programkódot, amely megmondja, hogy ez a hónap mely évszakhoz tartozik, és az évszak nevét kiírja a képernyőre.
+        téli hónapok: december, január, február
+        tavaszi hónapok: március, április, május
+        nyári hónapok: június, július, augusztus
+        őszi hónapok: szeptember, október, november
+        minden más esetben azt írja ki, hogy "nem meghatározható"
+        Ellenőrző adatok
+        String month = "február";
+        elvárt kiírás: tél
+        String month = "április";
+        elvárt kiírás: tavasz
+        String month = "június";
+        elvárt kiírás: nyár
+        String month = "november";
+        elvárt kiírás: ősz
+        String month = "kiscica";
+        elvárt kiírás: nem meghatározható*/
+
+
+        /*System.out.println("Kérem a hónapot!");
+        String honap = sc.nextLine();
+
+        if (honap.equalsIgnoreCase("január") || (honap.equalsIgnoreCase("február")
+                || (honap.equalsIgnoreCase("december")))) {
+            System.out.println("A megadott " + honap + " hónap TÉLRE esik!");
+
+        } else if (honap.equalsIgnoreCase("március") || (honap.equalsIgnoreCase("április")
+                || (honap.equalsIgnoreCase("május")))) {
+            System.out.println("A megadott " + honap + " hónap TAVASZRA esik!");
+
+        } else if (honap.equalsIgnoreCase("június") || (honap.equalsIgnoreCase("július")
+                || (honap.equalsIgnoreCase("augusztus")))) {
+            System.out.println("A megadott " + honap + " hónap NYÁRRA esik!");
+
+        } else if (honap.equalsIgnoreCase("szeptember") || (honap.equalsIgnoreCase("október")
+                || (honap.equalsIgnoreCase("november")))) {
+            System.out.println("A megadott " + honap + " hónap TÉLRE esik!");
+        } else {
+            System.out.println("A megadott  " + honap + " nem meghatározható!");
+        }*/
     }
 }
 
